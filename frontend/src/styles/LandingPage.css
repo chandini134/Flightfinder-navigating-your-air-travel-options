@@ -1,0 +1,150 @@
+.landingPage {
+    width: 100%;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .landingHero {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+    background: linear-gradient(45deg, rgba(20, 40, 50, 0.7), rgba(0, 0, 0, 0.6)),
+                url('../assets/HomeBG1.png') center/cover no-repeat;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .landingHero::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .landingHero-title {
+    width: 60%;
+    margin: 6% 0 0 4%;
+  }
+  .landingHero-title h1 {
+    color: #f2f9ff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  }
+  .landingHero-title p {
+    color: rgba(240, 248, 255, 0.78);
+    font-size: 1.1rem;
+  }
+  
+  .Flight-search-container {
+    margin-left: 5vw;
+    background-color: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+  }
+  
+  .Flight-search-container h3 {
+    font-size: 1.6rem;
+    color: #ffffff;
+  }
+  .Flight-search-container p {
+    color: #ff6666;
+    font-weight: 500;
+  }
+  .form-check-label {
+    color: #ffffff;
+  }
+  
+  .Flight-search-container-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .Flight-search-container select,
+  .Flight-search-container input {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 15vw;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #1a3445;
+  }
+  
+  .Flight-search-container button {
+    padding: 14px 26px;
+    border: none;
+    background-color: #0078d7;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .Flight-search-container button:hover {
+    background-color: #005fa3;
+    box-shadow: 0 0 10px #0078d7b5;
+  }
+  
+  .availableFlightsContainer {
+    margin: 3vh 5vw;
+  }
+  .availableFlightsContainer h1 {
+    color: #ffffff;
+  }
+  
+  .availableFlightsContainer .Flights {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .availableFlightsContainer .Flight {
+    background-color: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
+    padding: 2vh 2vw;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .availableFlightsContainer .Flight:hover {
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+  }
+  .availableFlightsContainer .Flight p {
+    margin: 0;
+    color: #e0e8f0;
+  }
+  .availableFlightsContainer .Flight p b {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  /* About Section */
+  .section-about {
+    min-height: 50vh;
+    background: linear-gradient(145deg, #c7e4f9 0%, #e9f3f9 55%, #dfc8e6 100%);
+    padding: 5vh 5vw;
+  }
+  
+  .section-about h2 {
+    color: #034e7f;
+    font-weight: 600;
+    margin-bottom: 2vh;
+  }
+  .section-about p {
+    color: #055791;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  .section-about span {
+    color: #6badeb;
+    text-align: center;
+    display: block;
+  }
+  .section-about span h5 {
+    margin-top: 8vh;
+    font-size: 1rem;
+  }
+  

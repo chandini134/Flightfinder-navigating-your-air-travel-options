@@ -1,0 +1,99 @@
+.BookFlightPage {
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #eef7fa, #d8ecf1);
+  }
+  
+  .BookingFlightPageContainer {
+    width: 44%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 3vh 3vw;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    font-family: 'Work Sans', sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .BookingFlightPageContainer:hover {
+    transform: translateY(-3px);
+  }
+  
+  .BookingFlightPageContainer h2 {
+    margin-bottom: 4vh;
+    text-align: center;
+    color: #2c6c84;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .BookingFlightPageContainer p {
+    margin-bottom: 6px;
+    color: #375d6d;
+    font-size: 0.95rem;
+  }
+  
+  .BookingFlightPageContainer p b {
+    font-weight: 600;
+  }
+  
+  .BookingFlightPageContainer span {
+    display: grid;
+    grid-template-columns: 64% 33%;
+    gap: 3%;
+  }
+  
+  .BookingFlightPageContainer .span3 {
+    display: grid;
+    grid-template-columns: repeat(3, 31.3%);
+    gap: 3%;
+  }
+  
+  .BookingFlightPageContainer button {
+    width: 35%;
+    margin: 30px auto 0;
+    display: block;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .BookingFlightPageContainer button:hover {
+    background-color: #005f94;
+  }
+  
+  .BookingFlightPageContainer li {
+    font-size: 0.82rem;
+    color: #3b3b3b;
+    margin-left: 1rem;
+  }
+  
+  .new-passenger h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #315a70;
+    margin-bottom: 1vh;
+  }
+  
+  .new-passenger-inputs {
+    display: grid;
+    grid-template-columns: 67% 30%;
+    gap: 3%;
+  }
+  
+  .new-passenger-inputs select,
+  .new-passenger-inputs input {
+    padding-left: 12px;
+    height: 40px;
+    border: 1px solid #a7c7d9;
+    border-radius: 0.4rem;
+    background-color: #f5fbfd;
+    color: #333;
+  }
+  

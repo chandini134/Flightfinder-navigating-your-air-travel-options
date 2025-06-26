@@ -1,0 +1,44 @@
+.flightAdmin-page {
+    padding-top: 15vh;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #f0f4f8, #dfeff5);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .notApproved-box {
+    width: 60%;
+    margin: 20vh auto;
+    text-align: center;
+    background-color: #ffffffd6;
+    border-left: 6px solid #ff6b6b;
+    padding: 4vh 4vw;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .notApproved-box h3 {
+    color: #c0392b;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  
+  .notApproved-box p {
+    color: #5a6d7b;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Optional fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

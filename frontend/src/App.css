@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding-top: 60px; /* Match navbar height */
+}
+
+
+.App {
+  padding: 0;
+  margin: 0;
+}

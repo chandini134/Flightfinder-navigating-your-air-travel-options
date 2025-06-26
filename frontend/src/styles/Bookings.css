@@ -1,0 +1,84 @@
+.user-bookingsPage {
+    margin-top: 13vh;
+    width: 100%;
+    background: linear-gradient(135deg, #f0f7fa, #e4f0f5);
+    padding-bottom: 5vh;
+  }
+  
+  .user-bookingsPage h1 {
+    color: #33657a;
+    margin-left: 3vw;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .user-bookings {
+    margin-top: 5vh;
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+  
+  .user-bookings .user-booking {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 3vh 2vw;
+    border-radius: 0.9rem;
+    box-shadow: rgba(51, 77, 92, 0.1) 0px 10px 30px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  
+  .user-bookings .user-booking:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 12px 40px;
+  }
+  
+  .user-bookings .user-booking span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .user-bookings .user-booking p {
+    margin: 0 0 5px 0;
+    color: #2b6d86;
+    font-size: 0.95rem;
+  }
+  
+  .user-bookings .user-booking p b {
+    font-weight: 600;
+    color: #224f63;
+  }
+  
+  .user-bookings .user-booking ol {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.85rem;
+    color: #3d3d3d;
+  }
+  
+  .user-bookings .user-booking ol b {
+    font-weight: 500;
+    color: #1a4e6a;
+  }
+  
+  .user-bookings .user-booking button {
+    margin-top: 15px;
+    width: 40%;
+    background-color: #0084b8;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-bookings .user-booking button:hover {
+    background-color: #006b95;
+  }
+  

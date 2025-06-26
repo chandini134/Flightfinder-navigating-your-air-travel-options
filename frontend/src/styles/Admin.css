@@ -1,0 +1,116 @@
+.admin-page {
+    margin-top: 15vh;
+    height: fit-content;
+    background-color: #f8f9fc;
+    padding-bottom: 5vh;
+  }
+  
+  .admin-page-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
+  }
+  
+  .admin-card {
+    padding: 3vh 2vw;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    color: #2c3e50;
+  }
+  
+  .admin-card:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(145deg, #f0f8ff, #d0e8ff);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-card h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .admin-card p {
+    margin: 0;
+    font-weight: 600;
+    color: #5d6d7e;
+  }
+  
+  .admin-requests-container {
+    margin: 10vh 0 3vh 3vw;
+    border: 1px solid #dce1e7;
+    width: 70%;
+    padding: 2vh 2vw;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .admin-requests-container h3 {
+    color: #34495e;
+  }
+  
+  .admin-requests {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 4vh;
+    height: 30vh;
+    overflow-y: auto;
+    margin-left: 2vw;
+    padding-right: 1vw;
+  }
+  
+  .admin-request {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    background-color: #f4f6f9;
+    border: 1px solid #dce1e7;
+    padding: 15px 25px;
+    border-radius: 0.8rem;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .admin-request:hover {
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-request span {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-request span b {
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  .admin-request-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .admin-request-actions button {
+    width: 7rem;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #11405f;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-request-actions button:hover {
+    background-color: #2c80b4;
+    cursor: pointer;
+  }
+  

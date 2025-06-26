@@ -1,0 +1,83 @@
+.NewFlightPage {
+    width: 100%;
+    padding-top: 18vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f8fa;
+  }
+  
+  .NewFlightPageContainer {
+    width: 45%;
+    background-color: #ffffffcc;
+    padding: 3vh 3%;
+    backdrop-filter: blur(8px);
+    border-radius: 0.8rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .NewFlightPageContainer h2 {
+    margin-bottom: 20px;
+    color: #365a6f;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .NewFlightPageContainer p b {
+    font-weight: 600;
+  }
+  
+  .NewFlightPageContainer button {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: #007acc;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .NewFlightPageContainer button:hover {
+    background-color: #005e99;
+  }
+  
+  .NewFlightPageContainer span,
+  .newFlightSpan1,
+  .newFlightSpan2 {
+    display: grid;
+    gap: 3%;
+    margin-bottom: 15px;
+  }
+  
+  .NewFlightPageContainer span {
+    grid-template-columns: 67% 30%;
+  }
+  
+  .newFlightSpan1 {
+    grid-template-columns: 54% 43%;
+  }
+  
+  .newFlightSpan2 {
+    grid-template-columns: 48.5% 48.5%;
+  }
+  
+  .new-passenger h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c5b73;
+  }
+  
+  .new-passenger-inputs {
+    display: grid;
+    grid-template-columns: 49% 15% 30%;
+    gap: 3%;
+  }
+  
+  .new-passenger-inputs select {
+    padding-left: 12px;
+  }
+  

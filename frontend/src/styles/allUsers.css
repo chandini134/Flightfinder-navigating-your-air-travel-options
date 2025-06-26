@@ -1,0 +1,58 @@
+.all-users-page {
+    width: 100%;
+    height: 100vh;
+    padding: 13vh 0 0 3vw;
+    background: linear-gradient(to right, #f8fbfc, #eef5f7);
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .all-users-page h2 {
+    margin-bottom: 4vh;
+    color: #4d6d86;
+    font-weight: 600;
+  }
+  
+  .all-users {
+    width: 85%;
+    height: 32vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+    padding-right: 5px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .all-users::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .all-users .user {
+    width: 100%;
+    background-color: rgba(231, 239, 236, 0.45);
+    border-radius: 0.8rem;
+    display: flex;
+    padding: 2vh 2vw;
+    gap: 2vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .all-users .user:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    background-color: rgba(225, 240, 238, 0.7);
+  }
+  
+  .all-users .user p {
+    margin: 0;
+    color: #2484ad;
+    font-size: 0.95rem;
+  }
+  
+  .all-users .user p b {
+    font-weight: 600;
+    color: #20617c;
+  }
+  
