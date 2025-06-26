@@ -4,6 +4,9 @@
 
 
 1.Navigate to the backend folder:
+
+
+
    cd backend
 2.Create a new file named .env:
    touch .env
